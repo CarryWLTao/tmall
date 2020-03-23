@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.tmall.auth.test.JwtTest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.898 s <<< FAILURE! - in com.tmall.auth.test.JwtTest
-testParseToken(com.tmall.auth.test.JwtTest)  Time elapsed: 4.334 s  <<< ERROR!
-io.jsonwebtoken.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-	at com.tmall.auth.test.JwtTest.testParseToken(JwtTest.java:45)
-
